@@ -60,6 +60,7 @@ const createNewTaskElement = function(taskString) {
     );
 
     deleteButtonImg.classList.add('tasks__img');
+    deleteButtonImg.setAttribute('alt', '')
 
     listItem.classList.add('tasks__item')
     deleteButtonImg.src = './remove.svg';
